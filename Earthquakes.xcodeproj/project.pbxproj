@@ -17,6 +17,7 @@
 		995D2CB42A1E59BF00010F1B /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D2CA92A1D385400010F1B /* TestData.swift */; };
 		995D2CB52A1E59D200010F1B /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D2CA92A1D385400010F1B /* TestData.swift */; };
 		995D2CB82A1E667600010F1B /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D2CB62A1E5B5D00010F1B /* TestDownloader.swift */; };
+		9974E1302A1E6B0600A611D3 /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9974E12F2A1E6B0600A611D3 /* QuakesProvider.swift */; };
 		AA2F4EB4276BACEC009837CD /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EB3276BACEC009837CD /* QuakeMagnitude.swift */; };
 		AA988DD327E900B6004EA073 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA988DD227E900B6004EA073 /* Quakes+Toolbar.swift */; };
 		AA988DD527E9016A004EA073 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA988DD427E9016A004EA073 /* SelectButton.swift */; };
@@ -56,6 +57,7 @@
 		995D2CB02A1E575B00010F1B /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 		995D2CB22A1E587A00010F1B /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		995D2CB62A1E5B5D00010F1B /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
+		9974E12F2A1E6B0600A611D3 /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
 		AA2F4EAF276BA585009837CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA2F4EB3276BACEC009837CD /* QuakeMagnitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuakeMagnitude.swift; path = Earthquakes/Views/QuakeMagnitude.swift; sourceTree = SOURCE_ROOT; };
 		AA988DD227E900B6004EA073 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				7CC62564273C2A9200F87758 /* Quake+Color.swift */,
 				995D2C9A2A1D34C900010F1B /* QuakeError.swift */,
 				995D2CB22A1E587A00010F1B /* QuakeClient.swift */,
+				9974E12F2A1E6B0600A611D3 /* QuakesProvider.swift */,
 				995D2CB02A1E575B00010F1B /* HTTPDataDownloader.swift */,
 			);
 			name = Models;
@@ -319,6 +322,7 @@
 				7CC62565273C2A9200F87758 /* Quake+Color.swift in Sources */,
 				AD43F1E626158A640068AABC /* EarthquakesApp.swift in Sources */,
 				AA988DDB27E9028A004EA073 /* ToolbarStatus.swift in Sources */,
+				9974E1302A1E6B0600A611D3 /* QuakesProvider.swift in Sources */,
 				AA988DD327E900B6004EA073 /* Quakes+Toolbar.swift in Sources */,
 				995D2CB42A1E59BF00010F1B /* TestData.swift in Sources */,
 				AA988DDD27E9030A004EA073 /* DeleteButton.swift in Sources */,
